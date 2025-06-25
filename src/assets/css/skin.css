@@ -1,0 +1,90 @@
+
+.box .img-link{display:block;width:188px;height:139px;}
+.box .img-link:hover{background-position:0 bottom !important;}
+
+.box .word{color:#383838;font-weight:bold;font-size:13px;display:inline-block;margin:15px 0 0 0;}
+.box .word:hover{color:#fff;text-decoration:none;}
+.car{background: url(../images/car.jpg) 0 0 no-repeat;}
+.car-1{background: url(../images/car-1.jpg) 0 0 no-repeat;}
+.car-2{background: url(../images/car-2.jpg) 0 0 no-repeat;}
+.car-3{background: url(../images/car-3.jpg) 0 0 no-repeat;}
+.car-4{background: url(../images/car-4.jpg) 0 0 no-repeat;}
+.car-5{background: url(../images/car-5.jpg) 0 0 no-repeat;}
+.car-6{background: url(../images/car-6.jpg) 0 0 no-repeat;}
+.car-7{background: url(../images/car-7.jpg) 0 0 no-repeat;}
+
+
+
+.carousel {
+    background: none;
+    border: 0;	
+	 width: 940px;
+	 margin:0 auto;
+}
+
+.car-wrapper {
+	position:relative;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+
+}
+.jcarousel-skin-tango .jcarousel-clip {width: 940px;
+    overflow: hidden;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {	
+}
+
+/*.jcarousel-item-6-horizontal, .jcarousel-item-6{width:254px !important;}*/
+
+.jcarousel-skin-tango .jcarousel-item {}
+   
+.jcarousel-skin-tango .jcarousel-item:first-child{}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {width: 188px;}
+
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {}
+
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: transparent !important;
+    color: #000;
+}
+/*
+ *  Horizontal Buttons
+ */
+.jcarousel-next-horizontal {
+    position: absolute;
+    top:  -66px;
+    right:  71px;
+    width:  12px;
+    height:  21px;
+    cursor: pointer;
+    background: url(../images/next-arrow.png) 0 bottom no-repeat;}
+
+.jcarousel-next-disabled-horizontal,
+.jcarousel-next-disabled-horizontal:hover {
+	background-position:0 0;
+}
+ .jcarousel-next-horizontal:hover {
+    background-position:0 0;
+}
+.jcarousel-prev-horizontal {
+    position: absolute;
+    top: -66px;
+    right: 99px;
+    width: 12px;
+    height:  21px;
+    cursor: pointer;
+    background: url(../images/prew-arrow.png) 0 0 no-repeat;
+}
+.jcarousel-prev-disabled-horizontal,
+.jcarousel-prev-disabled-horizontal:hover {
+    background-position: 0 bottom;
+}
+.jcarousel-prev-horizontal:hover {
+    background-position: 0 bottom;
+}
