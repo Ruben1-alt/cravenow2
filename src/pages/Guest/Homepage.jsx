@@ -11,9 +11,9 @@ function Homepage() {
     <>
     <Navbar/>
     <Content/>
-    <ContentSection/>
+    {/* <ContentSection/> */}
     <Featured/>
-    <Footer/>
+    {/* <Footer/> */}
     
     </>
 )
