@@ -1,5 +1,5 @@
 import React from 'react'
-import Index from './routes'
+// import Index from './routes'
 import Menueditpage from './pages/Employee/Menueditpage'
 import EmployeeNotificationView from './components/Employeenotification'
 import Cashierdutypage from './pages/Employee/Cashierdutypage'
