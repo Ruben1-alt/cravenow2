@@ -54,7 +54,7 @@ import Aboutpage from './pages/Guest/Aboutpage'
 import Restaurentpage from './pages/Guest/Restaurentpage'
 import Signup from './components/Signup'
 import Homepage from './pages/Guest/Homepage'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // import Login from './pages/Login'
 
 
